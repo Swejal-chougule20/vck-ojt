@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const CoursesPage = () => {
     return(
+        <div className="color">
         <div className="page-container" style={{overflow:"auto"}}>
         <Header/>
             <center>
@@ -106,6 +107,7 @@ const CoursesPage = () => {
                 <Link to="/contact" className="btn">Inquire About Courses</Link>
             </center>
             </div>
+        </div>
         </div>
     )
 }

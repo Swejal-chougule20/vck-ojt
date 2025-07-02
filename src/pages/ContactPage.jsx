@@ -2,6 +2,7 @@ import Header from "../components/Header/Header";
 
 const ContactPage = () => {
     return(
+      <div className="color">
         <div className="page-container" style={{overflow:"auto"}}>
           <Header/>
             <center>
@@ -39,6 +40,7 @@ const ContactPage = () => {
             <p>
               [A contact form with fields for Name, Email, Subject, Message can be added here.]
             </p>
+        </div>
         </div>
     )
 }

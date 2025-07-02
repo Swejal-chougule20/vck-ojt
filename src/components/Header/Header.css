@@ -7,7 +7,6 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 18px 36px;
   background: #2196f3;
@@ -23,8 +22,8 @@
 
 .nav-links {
   display: flex;
-  gap: 28px;
-  
+  gap: 8px;
+  align-items: center;
 }
 
 .Links {
@@ -87,10 +86,15 @@
     padding: 14px 10px;
   }
   .nav-links {
-    gap: 14px;
+    gap: 8px;
     margin-top: 8px;
+    align-items: center;
   }
   .brand {
     font-size: 1.2rem;
   }
+}
+
+.color{
+  background-color: skyblue;
 }

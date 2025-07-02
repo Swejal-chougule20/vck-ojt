@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return(
-    <div>
+    <div className="color">
     <Header/> 
     <div className="page-container" style={{ overflow: "auto" }}>
       <div className="section1">
@@ -28,8 +28,8 @@ const HomePage = () => {
           </ul>
           <h2>Campus Life & Facilities</h2>
           <hr/>
-          <img src="\Images\campus-life-Crkero7B.jpg" alt="Campus life" width="700"/>
-          <img src="\Images\students-studying-DbLGuwF_.jpeg" alt="Student Studiying" width="600"/>
+          <img src="\Images\campus-life-Crkero7B.jpg" alt="Campus life" width="400"/>
+          <img src="\Images\students-studying-DbLGuwF_.jpeg" alt="Student Studiying" width="450"/>
           <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
           <br/>
           <center>

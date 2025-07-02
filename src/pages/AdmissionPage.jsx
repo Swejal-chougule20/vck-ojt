@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const AdmissionPage = () => {
     return(
+        <div className="color">
         <div className="page-container" style={{ overflow: "auto" }}>
             <Header/>
             <center>
@@ -55,6 +56,7 @@ const AdmissionPage = () => {
                 <Link to="/courses">Courses page</Link> or
                 <Link to="/contact">Contact us</Link> directly.directly.
             </p>
+        </div>
         </div>
     )
 }
